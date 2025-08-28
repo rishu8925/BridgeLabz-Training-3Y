@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CricketScoreAnalyzer {
 
-    // Method to calculate total runs
+    
     public static int getTotalRuns(int[] runs) {
         int total = 0;
         for (int run : runs) {
