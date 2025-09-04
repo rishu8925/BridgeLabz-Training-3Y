@@ -1,9 +1,9 @@
 package InstancesVsClass;
 
 public class Course {
-    private String courseName;
-    private int duration;   
-    private double fee;
+    String courseName;
+    int duration;   
+    double fee;
     private static String instituteName = "Default Institute";
 
     public Course(String courseName, int duration, double fee) {
