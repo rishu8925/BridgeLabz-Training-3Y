@@ -2,12 +2,11 @@ import java.util.*;
 
 public class OTPGenerator {
 
-    // Method to generate 6-digit OTP using Math.random()
     public static int generateOTP() {
-        return 100000 + (int)(Math.random() * 900000); // ensures 6 digits
+        return 100000 + (int)(Math.random() * 900000); 
     }
 
-    // Method to check uniqueness of OTPs in an array
+    
     public static boolean areOTPsUnique(int[] otps) {
         Set<Integer> uniqueSet = new HashSet<>();
         for (int otp : otps) {
