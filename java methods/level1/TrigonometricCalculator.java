@@ -10,6 +10,7 @@ public class TrigonometricCalculator {
         return new double[]{sine, cosine, tangent};
     }
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

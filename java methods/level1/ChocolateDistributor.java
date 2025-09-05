@@ -8,6 +8,7 @@ public class ChocolateDistributor {
         return new int[]{quotient, remainder};
     }
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
