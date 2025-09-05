@@ -21,7 +21,7 @@ public class UnitConverter {
     }
 
     public static void main(String[] args) {
-        // Example usage
+    
         double km = 5;
         double miles = convertKmToMiles(km);
         System.out.println(km + " km = " + miles + " miles");
