@@ -4,11 +4,13 @@ public class StudentVote {
 
     public boolean canStudentVote(int age) {
         if (age < 0) {
-            return false; // invalid age
+            return false; 
+            
         }
         return age >= 18;
     }
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] ages = new int[10];
