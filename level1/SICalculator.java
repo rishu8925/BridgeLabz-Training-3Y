@@ -10,6 +10,7 @@ public class SICalculator {
         return (principal * rate * time) / 100;
     }
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
